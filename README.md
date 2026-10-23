@@ -1,66 +1,77 @@
-# 📊 Vrinda Store Annual Sales Analysis (2022)
+# Vrinda Store Annual Sales Analysis (2022)
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/Data_Analysis-Interactive_Dashboard-blue?style=for-the-badge)
+![Pivot Tables](https://img.shields.io/badge/Pivot_Tables-Dashboard-blue?style=for-the-badge)
 
-An end-to-end data analysis project analyzing **31,000+ sales records** for Vrinda Store in 2022 to identify purchasing patterns, customer demographics, and revenue growth opportunities.
-
----
-
-## 📌 Executive Summary & Business Problem
-
-Vrinda Store wanted to analyze their 2022 sales data to understand customer behavior and optimize their marketing strategies for 2023. 
-
-**Key Business Questions Addressed:**
-1. Who are the primary buyers (Gender & Age groups)?
-2. Which sales channels and states contribute the highest revenue?
-3. What is the order fulfillment rate and cancellation trend?
+An end-to-end Excel analysis of **31,000+ sales records** from Vrinda Store in 2022. The project finds out who the store's customers are, where its sales come from, and where revenue can grow in 2023.
 
 ---
 
-## 📈 Interactive Dashboard Preview
+## Business problem
 
-![Vrinda Store Dashboard](dashboard_screenshot.png.png)
+Vrinda Store wanted to understand its 2022 sales to plan better marketing for 2023.
+
+Questions this project answers:
+1. Who buys the most (gender and age group)?
+2. Which sales channels and states bring the most revenue?
+3. How many orders are delivered, and how many are cancelled, returned or refunded?
+4. Which months are the busiest?
 
 ---
 
-## 🔑 Key Metrics & Insights
+## Dashboard preview
 
-| Metric / Category | Major Finding |
+![Vrinda Store Dashboard](dashboard_screenshot.png)
+
+---
+
+## Key insights
+
+| Area | Finding |
 | :--- | :--- |
-| **Total Revenue Drivers** | Peak sales occurred in **March (~₹1.92M)** with over 2,800 orders. |
-| **Demographics** | **Women contribute 64%** of total sales. Adult women (age 30–49) are the largest consumer segment (**34.59%**). |
-| **Top Sales Channels** | **Amazon (35%)** and **Myntra (23%)** generate nearly 60% of total orders. |
-| **Top Performing States** | **Maharashtra (₹2.99M)**, **Karnataka (₹2.65M)**, and **Uttar Pradesh (₹2.10M)** lead revenue. |
-| **Fulfillment Rate** | **92%** order delivery success rate; cancellations & returns account for **8%**. |
+| **Sales trend** | Sales peaked in **March (about ₹1.92M)** with over **2,800 orders**, then trended down towards the end of the year. |
+| **Gender** | **Women contribute 64%** of sales and men 36%. |
+| **Age and gender** | **Adult women (30–49) are the largest segment at 34.59%** of orders, followed by teenage women (21.13%) and adult men (15.47%). Seniors are the smallest group. |
+| **Sales channels** | **Amazon (35%)** and **Myntra (23%)** bring nearly **60%** of total orders. Ajio (6%), Meesho (5%) and Nalli (5%) are smaller channels. |
+| **Top states** | **Maharashtra (₹2.99M)**, **Karnataka (₹2.65M)** and **Uttar Pradesh (₹2.10M)** lead revenue, followed by Telangana (₹1.71M) and Tamil Nadu (₹1.68M). |
+| **Order status** | **92%** of orders were delivered. Returned (3%), cancelled (3%) and refunded (2%) orders make up the other **8%**. |
 
 ---
 
-## 💡 Strategic Recommendations
+## Recommendations
 
-Based on the insights generated from the data:
-* **Target Marketing:** Focus ads and promotional campaigns on **Adult Women (30-49 years)** in **Maharashtra, Karnataka, and UP**.
-* **Channel Optimization:** Partner more aggressively with **Amazon & Myntra**, as they drive over half of all orders.
-* **Inventory Planning:** Increase inventory stocking prior to **March and Q1** to prepare for seasonal sales peaks.
+These suggestions are based on the findings above.
 
----
-
-## 🛠️ Technical Workflow & Skills Used
-
-- **Data Cleaning & Preprocessing:** Handled missing values, standardized formats, and added custom calculated columns (`Age Group`).
-- **Data Aggregation:** Built multiple Pivot Tables for multi-dimensional data summarization.
-- **Data Visualization:** Designed an interactive Excel dashboard with custom color palettes, KPI cards, and dynamic charts.
-- **Excel Skills:** Pivot Tables, Data Formatting, Advanced Charts (Combo, Pie, Stacked Bar).
+- **Target the biggest buyers:** Focus campaigns on women aged 30–49 in Maharashtra, Karnataka and Uttar Pradesh.
+- **Strengthen top channels:** Amazon and Myntra drive most orders, so deals and listings there matter most. Smaller channels can be tested for growth.
+- **Plan for the peak:** Keep enough stock and run offers around March, and study why sales fell in later months.
+- **Reduce lost orders:** Look into the 8% of cancelled, returned and refunded orders to find common reasons.
 
 ---
 
-## 📂 Repository Structure
+## What I did
 
-- `Store Data Analysis.xlsx` — Master Excel workbook with raw data, pivots & dashboard
-- `dashboard_screenshot.png.png` — High-resolution preview image of the dashboard
-- `README.md` — Comprehensive project documentation
+- **Data preparation:** Cleaned the raw sales data and added an `Age Group` column (Teenager, Adult, Senior).
+- **Analysis:** Built pivot tables to summarise sales by month, gender, age group, channel, state and order status.
+- **Visualisation:** Designed a single-page Excel dashboard with combo, bar and pie charts.
+- **Excel features used:** Pivot tables, calculated columns, charts, formatting.
 
 ---
 
-## 📑 Acknowledgments & Credits
-This project was built by following the Excel Data Analysis tutorial by **Rishabh Mishra** on YouTube, with custom formatting and additional insight analysis applied.
+## Files in this repository
+
+| File | Description |
+| :--- | :--- |
+| `Store Data Analysis.xlsx` | Excel workbook with the data, pivot tables and dashboard |
+| `dashboard_screenshot.png` | Preview image of the dashboard |
+| `README.md` | Project documentation |
+
+---
+
+## About me
+
+**Satyam Mishra**, B.Tech CSE (AI) student and aspiring Data Analyst.
+
+- LinkedIn: [satyammishraaa](https://www.linkedin.com/in/satyammishraaa/)
+- GitHub: [satyammishra19](https://github.com/satyammishra19)
+- Email: mishrasatyam1912@gmail.com
